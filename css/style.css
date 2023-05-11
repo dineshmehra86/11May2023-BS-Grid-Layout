@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'alex';
+    src: url('../fonts/alex.ttf'), format('truetype');
+}
+h1 {
+    font-family: 'alex', Arial, Helvetica, sans-serif;
+    border: #af083d dotted 2px;
+    background-color: yellow;
+}
+/* long method */
+div.dinesh_row {
+    border: #000 dotted 1px;
+    height: 100px;
+}
+div.dinesh_row > div {
+    border: red dotted 1px;
+    height: 100%;
+    background-color: cornsilk;
+}
+/* short method */
+.dinesh2_row {
+    border: #051f6b dotted 1px;
+    height: 100px;
+}
+.dinesh2_row > div {
+    border: #af083d dotted 1px;
+    height: 100%;
+    background-color: wheat;
+}
+.dinesh3_row {
+    border: #e93b80 dotted 1px;
+    height: 100px;
+}
+.dinesh3_row > div:first-child {
+    background-color: burlywood;
+    height: 100%;
+}
+.dinesh3_row > div:nth-child(2) {
+    background-color: cadetblue;
+    height: 100%;
+}
+.dinesh3_row > div:nth-child(3) {
+    background-color: #af083d;
+    height: 100%;
+}
+.dinesh3_row > div:nth-child(4) {
+    background-color:chocolate;
+    height: 100%;
+}
+.dinesh3_row > div:last-child {
+    background-color:rgb(119, 180, 12);
+    height: 100%;
+}
+
+.dinesh4_row {
+    border: #a303ae dotted 1px;
+    height: 100px;
+}
+.dinesh4_row > div:first-child {
+    background-color: rgb(181, 167, 14);
+    height: 100%;
+}
+.dinesh4_row > div:last-child {
+    background-color: rgb(244, 244, 73);
+    height: 100%;
+}
+.dinesh5_row {
+    border: #a303ae dotted 1px;
+    background-color: tomato;
+    height: 100px;
+}
